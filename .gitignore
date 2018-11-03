@@ -1,0 +1,9 @@
+
+**/.metadata/*
+**/.recommenders/*
+**/.settings/*
+*.classpath
+*.project
+
+Chapter_01/knights/target/*
+**/.settings/**
