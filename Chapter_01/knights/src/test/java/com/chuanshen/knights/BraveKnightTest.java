@@ -1,11 +1,13 @@
 package com.chuanshen.knights;
 import static org.mockito.Mockito.*;
 
-import org.junit.jupiter.api.Test;
-class BraveKnightTest {
+import org.junit.Test;
+
+// import org.junit.jupiter.api.Test;
+public class BraveKnightTest {
 
 	@Test
-	void knightShouldEmbarkOnQuest() {
+	public void knightShouldEmbarkOnQuest() {
 		Quest mockQuest = mock(Quest.class);				// 创建 mock Quest
 		BraveKnight knight = new BraveKnight(mockQuest);	// 注入 mock Quest
 		knight.embarkOnQuest();
