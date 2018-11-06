@@ -9,10 +9,9 @@ public class SlayDragonQuest implements Quest {
 	public SlayDragonQuest(PrintStream stream) {
 		this.stream = stream;
 	}
-	
+
 	@Override
 	public void embark() {
 		stream.println("Embarking on quest to slay the dragon!");
 	}
-
 }

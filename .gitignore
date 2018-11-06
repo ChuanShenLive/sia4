@@ -7,3 +7,5 @@
 
 Chapter_01/knights/target/*
 **/.settings/**
+/.metadata/
+/.recommenders/
