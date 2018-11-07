@@ -1,4 +1,4 @@
-package com.chuanshen.stereo_autoconfig;
+package com.chuanshen.soundsystem;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

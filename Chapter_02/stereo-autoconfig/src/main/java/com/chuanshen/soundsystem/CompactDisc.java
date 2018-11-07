@@ -1,4 +1,4 @@
-package com.chuanshen.stereo_autoconfig;
+package com.chuanshen.soundsystem;
 
 public interface CompactDisc {
 	void play();
