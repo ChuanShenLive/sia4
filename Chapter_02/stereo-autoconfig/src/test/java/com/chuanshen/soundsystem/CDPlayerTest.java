@@ -28,10 +28,11 @@ public class CDPlayerTest {
 	public void cdShouldNotBeNull() {
 		assertNotNull(cd);
 	}
-	
+
+	@Test
 	public void play() {
 		player.play();
-		assertEquals("Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles\n"
+		assertEquals("Playing Sgt. Pepper's Lonely Hearts Club Band by The Beatles\r\n"
 				, log.getLog());
 	}
 }

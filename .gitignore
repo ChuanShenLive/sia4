@@ -5,7 +5,9 @@
 *.classpath
 *.project
 
-Chapter_01/knights/target/*
+**/target/**
 **/.settings/**
 /.metadata/
 /.recommenders/
+**/.idea/**
+
