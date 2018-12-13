@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:c="http://www.springframework.org/schema/c"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean id="compactDisc" class="com.chuanshen.soundsystem.SgtPeppers" />
+    
+    <!-- c - 命名空间前缀  -->
+    <!-- cd - 构造器参数名 -->
+    <!-- -ref - 注入bean引用  -->
+    <!-- compactDisc - 要注入的bean的ID  -->
+    <!-- 注意: cd 依赖于调试标志，移除调试标志后将无法执行  -->
+    <bean id="cdPlayer" class="com.chuanshen.soundsystem.CDPlayer" c:cd-ref="compactDisc" />
+    
+    <!-- 使用参数在参数列表中的位置信息  -->
+    <!--
+    <bean id="cdPlayer" class="com.chuanshen.soundsystem.CDPlayer" c:_0-ref="compactDisc" />
+    -->
+    
+    <!-- 只有一个参数，根本不用去标识参数  -->
+    <!--
+    <bean id="cdPlayer" class="com.chuanshen.soundsystem.CDPlayer" c:_-ref="compactDisc" />
+    -->
+</beans>
