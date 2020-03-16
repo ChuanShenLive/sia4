@@ -13,3 +13,8 @@
 *.iml
 
 
+**/.gradle/**
+**/build/**
+**/gradle/wrapper
+**/gradlew
+**/gradlew.bat
