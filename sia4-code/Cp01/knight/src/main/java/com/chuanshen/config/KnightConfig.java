@@ -1,5 +1,9 @@
-package com.chuanshen;
+package com.chuanshen.config;
 
+import com.chuanshen.BraveKnight;
+import com.chuanshen.Knight;
+import com.chuanshen.Quest;
+import com.chuanshen.SlayDragonQuest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
